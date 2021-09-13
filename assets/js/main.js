@@ -185,7 +185,7 @@
         // Main.
         $t._update = function() {
             pos = 0;
-            rightLimit = (-1 * reelWidth) + $window.width();
+            rightLimit = (-1.16 * reelWidth) + $window.width();
             leftLimit = 0;
             $t._updatePos();
         };
