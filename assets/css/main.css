@@ -2668,6 +2668,7 @@ details[open]>summary~* {
 }
 
 .carousel article p {
+    font-size: 0.8em;
     text-align: center;
 }
 
@@ -2675,9 +2676,10 @@ details[open]>summary~* {
 /* Progress bar */
 
 .progressbar-title {
-    font-size: 14px;
+    font-size: 1em;
     color: #848484;
     text-transform: capitalize;
+    text-align: left;
 }
 
 .progress {
@@ -2707,11 +2709,11 @@ details[open]>summary~* {
 }
 
 .progress-value {
-    font-size: 13px;
+    font-size: 1.2em;
     color: #848484;
     position: absolute;
     top: 16px;
-    right: 0;
+    right: 1px;
 }
 
 @-webkit-keyframes animate-positive {
