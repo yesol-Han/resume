@@ -2686,7 +2686,8 @@ details[open]>summary~* {
     height: 5px;
     overflow: visible;
     background: #f0f0f0;
-    margin-bottom: 40px;
+    margin-top: 0.4em;
+    margin-bottom: 1.2em;
 }
 
 .progress .progress-bar {
