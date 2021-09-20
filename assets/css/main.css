@@ -2518,14 +2518,22 @@ details[open]>summary~* {
     text-align: left;
 }
 
-.container2 div .title,
-.container2 div .type {
+.container2 div .title {
+    font-style: inherit;
     font-weight: 600;
-    font-size: 16px;
+    font-size: 1.3em;
 }
 
 .container2 div .info {
+    font-style: inherit;
+    font-size: inherit;
     font-weight: 300;
+    line-height: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+.container2 div .info>p {
+    margin-bottom: 1em;
 }
 
 .container2 div>div {}
