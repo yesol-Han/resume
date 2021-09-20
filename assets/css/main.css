@@ -2728,3 +2728,11 @@ details[open]>summary~* {
         width: 0%;
     }
 }
+
+
+/* skills */
+
+.skills>p>b {
+    font-weight: 500;
+    color: inherit;
+}
