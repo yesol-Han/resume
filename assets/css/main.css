@@ -330,8 +330,7 @@ br.clear {
 
 /* Container */
 
-.container,
-.container2 {
+.container {
     margin: 0 auto;
     max-width: 80%;
     width: 1400px;
@@ -341,73 +340,29 @@ br.clear {
     .container {
         width: 1200px;
     }
-    /* Carousel */
-    .carousel {
-        padding: 1.25em 0 1.25em 0;
-    }
-    .carousel article {
-        width: 18em;
-        margin: 0 1em 0 0;
-    }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1620px) {
-    .container,
-    .container2 {
+    .container {
         width: 960px;
-    }
-    /* Carousel */
-    .carousel {
-        padding: 1.25em 0 1.25em 0;
-    }
-    .carousel article {
-        width: 18em;
-        margin: 0 1em 0 0;
     }
 }
 
 @media screen and (min-width: 961px) and (max-width: 1320px) {
-    .container,
-    .container2 {
+    .container {
         width: 100%;
-    }
-    /* Carousel */
-    .carousel {
-        padding: 1.25em 0 1.25em 0;
-    }
-    .carousel article {
-        width: 18em;
-        margin: 0 1em 0 0;
     }
 }
 
 @media screen and (max-width: 960px) {
-    .container,
-    .container2 {
+    .container {
         width: 100%;
-    }
-    /* Carousel */
-    .carousel {
-        padding: 1.25em 0 1.25em 0;
-    }
-    .carousel article {
-        width: 18em;
-        margin: 0 1em 0 0;
     }
 }
 
 @media screen and (max-width: 736px) {
-    .container,
-    .container2 {
+    .container {
         width: 100%;
-    }
-    /* Carousel */
-    .carousel {
-        padding: 1.25em 0 1.25em 0;
-    }
-    .carousel article {
-        width: 18em;
-        margin: 0 1em 0 0;
     }
 }
 
@@ -1595,11 +1550,9 @@ article {
 
 section> :last-child,
 section>.container,
-article>.container2,
 section:last-child,
 article> :last-child,
 article>.container,
-article>.container2,
 article:last-child {
     margin-bottom: 0;
 }
@@ -2095,17 +2048,6 @@ button:active,
     #main {
         margin-left: 300px;
     }
-    /* Carousel */
-    .carousel {
-        padding: 1.5em 0 1.5em 0;
-    }
-    .carousel .reel {
-        padding: 0 1.5em 0 1.5em;
-    }
-    .carousel article {
-        width: 18em;
-        margin: 0 1.25em 0 0;
-    }
 }
 
 
@@ -2132,8 +2074,7 @@ button:active,
     select {
         font-size: 16pt;
     }
-    .container,
-    .container2 {
+    .container {
         padding: 0 2em 0 2em;
     }
     /* Icons */
@@ -2197,8 +2138,7 @@ button:active,
     header br {
         display: none;
     }
-    .container,
-    .container2 {
+    .container {
         padding: 0 2em 0 2em;
     }
     /* Item */
@@ -2367,8 +2307,7 @@ button:active,
         letter-spacing: 0;
         font-weight: 300;
     }
-    .container,
-    .container2 {
+    .container {
         padding: 0 15px 0 15px;
     }
     /* List */
@@ -2439,27 +2378,6 @@ details[open]>summary~* {
     animation: reveal 0.5s;
 }
 
-.tpt,
-.tpt2 {
-    font-size: 18px;
-    background: rgb(236, 236, 225);
-    color: #444;
-    margin: 5px 0 10px;
-    padding: 5px 10px;
-    line-height: 25px;
-    border-radius: 5px;
-    box-shadow: 1px 1px 2px gray;
-}
-
-.tpt2 {
-    background: rgb(181, 218, 231)
-}
-
-.tpt>table,
-.tpt2>table {
-    margin-bottom: 0;
-}
-
 @keyframes reveal {
     from {
         opacity: 0;
@@ -2469,234 +2387,6 @@ details[open]>summary~* {
         opacity: 1;
         transform: translate3d(0, 0, 0);
     }
-}
-
-
-/* Career */
-
-.container2 ul {
-    margin: 0;
-    list-style: none;
-    position: relative;
-    padding: 1px 100px;
-    color: rgb(0, 0, 0);
-    font-size: 13px;
-}
-
-.container2 ul li {
-    position: relative;
-    margin-left: 30px;
-    background-color: rgb(236, 236, 219);
-    padding: 14px;
-    border-radius: 6px;
-    /*width: 500px;*/
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08);
-}
-
-.container2 ul li:not(:first-child) {
-    margin-top: 60px;
-}
-
-.container2 ul li>span {
-    width: 2px;
-    height: 100%;
-    background: rgb(223, 223, 149);
-    left: -30px;
-    top: 0;
-    position: absolute;
-}
-
-.container2 ul li>span:before,
-.container2 ul li>span:after {
-    content: "";
-    width: 8px;
-    height: 8px;
-    border-radius: 50%;
-    border: 2px solid rgb(223, 223, 149);
-    position: absolute;
-    background: #cccb74;
-    left: -5px;
-    top: 0;
-}
-
-.container2 ul li span:after {
-    top: 100%;
-}
-
-.container2 ul li>div {
-    margin-left: 10px;
-    text-align: left;
-}
-
-.container2 div .title {
-    font-style: inherit;
-    font-weight: 600;
-    font-size: 1.3em;
-}
-
-.container2 div .info {
-    font-style: inherit;
-    font-size: inherit;
-    font-weight: 300;
-    line-height: 1.6em;
-    margin-bottom: 0.5em;
-}
-
-.container2 div .info>p {
-    margin-bottom: 1em;
-}
-
-.container2 div>div {}
-
-.container2 span.number {
-    height: 100%;
-}
-
-.container2 span.number span {
-    position: absolute;
-    font-size: 1em;
-    left: -55px;
-    font-weight: bold;
-}
-
-.container2 span.number span:first-child {
-    top: -10%;
-}
-
-.container2 span.number span:last-child {
-    top: 90%;
-}
-
-
-/* Carousel */
-
-.carousel {
-    position: relative;
-    overflow: hidden;
-    padding: 2em 0 2em 0;
-    margin-bottom: 0;
-}
-
-.carousel .forward,
-.carousel .backward {
-    position: absolute;
-    top: 50%;
-    width: 6em;
-    height: 12em;
-    margin-top: -6em;
-    cursor: pointer;
-}
-
-.carousel .forward:before,
-.carousel .backward:before {
-    content: '';
-    display: block;
-    width: 6em;
-    height: 6em;
-    border-radius: 100%;
-    background-color: rgba(72, 57, 73, 0.5);
-    position: absolute;
-    top: 50%;
-    margin-top: -3em;
-    -moz-transition: background-color 0.35s ease-in-out;
-    -webkit-transition: background-color 0.35s ease-in-out;
-    -o-transition: background-color 0.35s ease-in-out;
-    -ms-transition: background-color 0.35s ease-in-out;
-    transition: background-color 0.35s ease-in-out;
-    -webkit-backface-visibility: hidden;
-}
-
-.carousel .forward:after,
-.carousel .backward:after {
-    content: '';
-    width: 3em;
-    height: 3em;
-    position: absolute;
-    top: 50%;
-    margin: -1.5em 0 0 0;
-    background: url("images/arrow.svg") no-repeat center center;
-}
-
-.carousel .forward:hover:before,
-.carousel .backward:hover:before {
-    background-color: rgba(239, 131, 118, 0.75);
-}
-
-.carousel .forward {
-    right: 0;
-}
-
-.carousel .forward:before {
-    right: -3em;
-}
-
-.carousel .forward:after {
-    right: -0.25em;
-}
-
-.carousel .backward {
-    left: 0;
-}
-
-.carousel .backward:before {
-    left: -3em;
-}
-
-.carousel .backward:after {
-    left: -0.25em;
-    -moz-transform: scaleX(-1);
-    -webkit-transform: scaleX(-1);
-    -ms-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-
-.carousel .reel {
-    white-space: nowrap;
-    position: relative;
-    -webkit-overflow-scrolling: touch;
-    padding: 0 2em 0 0;
-}
-
-.carousel article {
-    display: inline-block;
-    width: 18em;
-    background: #fff;
-    text-align: center;
-    padding: 0 1em 1em 1em;
-    margin: 0 2em 0 0;
-    white-space: normal;
-    opacity: 1.0;
-    -moz-transition: opacity 0.75s ease-in-out;
-    -webkit-transition: opacity 0.75s ease-in-out;
-    -ms-transition: opacity 0.75s ease-in-out;
-    transition: opacity 0.75s ease-in-out;
-}
-
-.carousel article.loading {
-    opacity: 0;
-}
-
-.carousel article .image {
-    position: relative;
-    left: -1em;
-    top: 0;
-    width: auto;
-    margin-right: -2em;
-    margin-bottom: 1em;
-}
-
-.carousel article header {
-    margin: 0.5em 0 0.5em 0;
-}
-
-.carousel article header h3 {
-    font-size: 1.3em;
-}
-
-.carousel article p {
-    font-size: 0.8em;
-    line-height: 1.5em;
-    text-align: center;
 }
 
 
@@ -2757,6 +2447,36 @@ details[open]>summary~* {
 }
 
 
+/* about */
+
+.tpt {
+    font-size: 18px;
+    background: rgb(236, 236, 225);
+    color: #444;
+    margin: 5px 0 10px;
+    padding: 5px 10px;
+    line-height: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px gray;
+}
+
+.about-edu {
+    margin-top: 1em;
+    font-size: 0.9em;
+    text-align: left;
+    margin-left: 2em;
+}
+
+.about-edu>li {
+    font-weight: 500;
+}
+
+.about-edu>p {
+    font-weight: 400;
+    margin-left: 2em;
+}
+
+
 /* skills */
 
 .skills>p>b {
@@ -2772,12 +2492,15 @@ details[open]>summary~* {
     color: rgb(140, 160, 218);
 }
 
+
+/* contact */
+
 .contact-style {
     padding: 35px 20px 1px 20px;
     border-radius: 5px;
     text-align: left;
     min-width: 300px;
-    width: 40%;
+    width: 50%;
     background-color: rgb(236, 236, 219);
     box-shadow: 1px 1px 2px gray;
 }
