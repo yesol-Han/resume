@@ -1576,19 +1576,18 @@ article:last-child {
 }
 
 .image.avatar48 {
-    width: 48px;
     height: 48px;
     background: #f00;
 }
 
 .image.avatar48 img {
-    width: 48px;
     height: 48px;
 }
 
 .image.fit {
     display: block;
-    width: 100%;
+    width: 30%;
+    min-width: 30%;
 }
 
 .image.featured {
@@ -1729,20 +1728,66 @@ button:active,
 
 /* Item */
 
-.item {
+.wrapper {
+    display: flex;
+}
+
+.item,
+.item2 {
     box-shadow: 0 0.05em 0.18em 0 rgba(0, 0, 0, 0.05);
     margin-bottom: 40px;
 }
 
+.item>.fit {
+    order: 1;
+    float: left;
+}
+
 .item header {
+    order: 2;
+    float: left;
     background: #fff;
     margin: 0;
     padding: 1em 0 1em 0;
     font-size: 0.8em;
+    text-align: left;
+    width: 70%;
+    height: 100%;
+}
+
+.item2 header {
+    background: #fff;
+    margin: 0;
+    padding: 1em 0 1em 0;
+    font-size: 0.8em;
+    text-align: left;
 }
 
 .item header h3 {
     font-size: 1em;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.item2 header h3 {
+    font-size: 1em;
+}
+
+.item p {
+    font-size: 0.9em;
+    margin: 0;
+    margin-left: 1.5em;
+    margin-right: 1em;
+    line-height: 1.2em;
+    margin-top: 0.7em;
+    margin-bottom: 0.7em;
+}
+
+.item2 p {
+    line-height: 1.8em;
+    font-size: 0.7em;
+    font-weight: 400;
+    text-align: left;
 }
 
 
