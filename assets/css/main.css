@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&family=Nanum+Pen+Script&display=swap');
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
@@ -2558,14 +2558,10 @@ details[open]>summary~* {
     font-family: 'Nanum Pen Script', cursive;
 }
 
-.stylish {
-    font-family: 'Stylish', sans-serif;
-    line-height: 1.5em;
-    text-align: left;
-    margin-bottom: 0;
-}
-
 .gowun {
+    font-size: 0.9em;
+    font-weight: 500;
+    color: black;
     font-family: 'Gowun Dodum', sans-serif;
     line-height: 1.5em;
     margin-bottom: 0.5em;
